@@ -25,4 +25,9 @@ có 4 bước chính trong suốt quá trình mà một file source code phải 
 - Thực tế file (.exe) là 1 file zip gồm file source, file âm thanh, file hình ảnh, file thư viện nếu ứng dụng đó có.
 - sắp xếp các file trên vào file(.exe)
 
+# POINTER 
+## Định nghĩa 
+Con trỏ là một biến địa chỉ (biến này lưu địa chỉ ở vị trí con trỏ trỏ đến)
+Con trỏ cũng có một địa chỉ riêng ( địa chỉ rác ), có thể trùng với địa chỉ của 1 biến nào đó trong chương trình . Nên khi chưa dùng dến con trỏ nên khai con trỏ = NULL, để ô địa chỉ của con trỏ sẽ là 0.    *cú pháp: int *ptr =NULL;
+
 
