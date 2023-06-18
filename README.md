@@ -30,7 +30,9 @@ có 4 bước chính trong suốt quá trình mà một file source code phải 
 - Con trỏ là một biến địa chỉ (biến này lưu địa chỉ ở vị trí con trỏ trỏ đến)
 - **Khai báo con trỏ:** <kiểu dữ liệu> *<tên con trỏ> (ví dụ int *ptr)
 - **trỏ con trỏ đến địa chỉ nào đó:** ptr = &a 
-- **Đọc địa chỉ con trỏ:** ptr
+- **Đọc địa chỉ con trỏ trỏ đến:** ptr
+- **Đọc địa chỉ con trỏ:** &ptr
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/0d7c405e-047c-47a8-b8d0-4eba411a910e)
 - **Đọc giá trị tại địa chỉ con trỏ trỏ đến:** *ptr 
 - Con trỏ cũng có một địa chỉ riêng ( địa chỉ rác ), có thể trùng với địa chỉ của 1 biến nào đó trong chương trình . Nên khi chưa dùng dến con trỏ nên khai con trỏ = NULL(địa chỉ = 0, giá trị =0), để ô địa chỉ của con trỏ sẽ là 0.   *cú pháp: int *ptr =NULL;
 ## Các loaị con trỏ thường gặp 
