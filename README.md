@@ -28,9 +28,21 @@ có 4 bước chính trong suốt quá trình mà một file source code phải 
 # POINTER 
 ## Định nghĩa 
 - Con trỏ là một biến địa chỉ (biến này lưu địa chỉ ở vị trí con trỏ trỏ đến)
-- Khai báo con trỏ: *ptr = &a
-- Đọc địa chỉ con trỏ: ptr
-- Đọc giá trị tại địa chỉ con trỏ trỏ đến: *ptr 
+- **Khai báo con trỏ:** <kiểu dữ liệu> *<tên con trỏ> (ví dụ int *ptr)
+- **trỏ con trỏ đến địa chỉ nào đó:** ptr = &a 
+- **Đọc địa chỉ con trỏ:** ptr
+- **Đọc giá trị tại địa chỉ con trỏ trỏ đến:** *ptr 
 - Con trỏ cũng có một địa chỉ riêng ( địa chỉ rác ), có thể trùng với địa chỉ của 1 biến nào đó trong chương trình . Nên khi chưa dùng dến con trỏ nên khai con trỏ = NULL(địa chỉ = 0, giá trị =0), để ô địa chỉ của con trỏ sẽ là 0.   *cú pháp: int *ptr =NULL;
+## Các loaị con trỏ thường gặp 
+
+int *ptr; // **khai báo con trỏ để trỏ tới biến kiểu nguyên**
+float *ptr; // **khai báo con trỏ để trỏ tới biến kiểu thực**
+char *ptr; // **khai báo con trỏ để trỏ tới biến kiểu ký tự**
+
+### Con trỏ void (void *<tên con trỏ>)
+- Con trỏ void còn được gọi là con trỏ tổng quát, là một kiểu con trỏ đặc biệt có thể trỏ đến các đối tượng của bất kỳ kiểu dữ liệu nào!
+- Tuy nhiên, con trỏ void không xác định được kiểu dữ liệu của vùng nhớ mà nó trỏ tới. Vì vậy, con trỏ kiểu void cần phải được ép kiểu một cách rõ ràng sang con trỏ có kiểu dữ liệu khác (**ép kiểu** (<kiểu dữ liệu muốn ép>*)<tên con trỏ void))
+
+
 
 
