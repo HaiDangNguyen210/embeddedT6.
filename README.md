@@ -35,14 +35,16 @@ có 4 bước chính trong suốt quá trình mà một file source code phải 
 - Con trỏ cũng có một địa chỉ riêng ( địa chỉ rác ), có thể trùng với địa chỉ của 1 biến nào đó trong chương trình . Nên khi chưa dùng dến con trỏ nên khai con trỏ = NULL(địa chỉ = 0, giá trị =0), để ô địa chỉ của con trỏ sẽ là 0.   *cú pháp: int *ptr =NULL;
 ## Các loaị con trỏ thường gặp 
 
-int *ptr; // **khai báo con trỏ để trỏ tới biến kiểu nguyên**
-float *ptr; // **khai báo con trỏ để trỏ tới biến kiểu thực**
-char *ptr; // **khai báo con trỏ để trỏ tới biến kiểu ký tự**
+- int *ptr; // **khai báo con trỏ để trỏ tới biến kiểu nguyên**
+- float *ptr; // **khai báo con trỏ để trỏ tới biến kiểu thực**
+- char *ptr; // **khai báo con trỏ để trỏ tới biến kiểu ký tự**
 
 ### Con trỏ void (void *<tên con trỏ>)
 - Con trỏ void còn được gọi là con trỏ tổng quát, là một kiểu con trỏ đặc biệt có thể trỏ đến các đối tượng của bất kỳ kiểu dữ liệu nào!
-- Tuy nhiên, con trỏ void không xác định được kiểu dữ liệu của vùng nhớ mà nó trỏ tới. Vì vậy, con trỏ kiểu void cần phải được ép kiểu một cách rõ ràng sang con trỏ có kiểu dữ liệu khác (**ép kiểu** (<kiểu dữ liệu muốn ép>*)<tên con trỏ void))
-
+- Tuy nhiên, con trỏ void không xác định được kiểu dữ liệu của vùng nhớ mà nó trỏ tới. Vì vậy, con trỏ kiểu void cần phải được ép kiểu một cách rõ ràng sang con trỏ có kiểu dữ liệu khác (**ép kiểu** (<kiểu dữ liệu muốn ép>*)<tên con trỏ void> ) (lưu ý: muốn xuất ra giá trị của địa chỉ thì thêm dấu* trước ngoặc đơn))
+### Con trỏ hàm 
+- **khai báo con trỏ hàm**: <kiểu dữ liệu>(*tên con trỏ)(<dữ liệu biến truyền vào hàm>) ( ví dụ: void(*ptr)(int int) )
+- **ép kiểu con trỏ hàm** (ở đây là con trỏ void) ((void (*)(<kiểu dữ liệu biến truyền vào hàm>))<tên con trỏ void>)  ( ví dụ: ((void(*)(int int)ptr)) )
 
 
 
