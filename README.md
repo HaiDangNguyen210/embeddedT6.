@@ -26,7 +26,7 @@ có 4 bước chính trong suốt quá trình mà một file source code phải 
 - sắp xếp các file trên vào file(.exe)
 
 # POINTER 
-## 1.Định nghĩa 
+## 1. Định nghĩa 
 - Con trỏ là một biến địa chỉ (biến này lưu địa chỉ ở vị trí con trỏ trỏ đến)
 - **Khai báo con trỏ:** <kiểu dữ liệu> *<tên con trỏ> (ví dụ int *ptr)
 - **trỏ con trỏ đến địa chỉ nào đó:** ptr = &a 
@@ -35,20 +35,20 @@ có 4 bước chính trong suốt quá trình mà một file source code phải 
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/0d7c405e-047c-47a8-b8d0-4eba411a910e)
 - **Đọc giá trị tại địa chỉ con trỏ trỏ đến:** *ptr 
 - Con trỏ cũng có một địa chỉ riêng ( địa chỉ rác ), có thể trùng với địa chỉ của 1 biến nào đó trong chương trình . Nên khi chưa dùng dến con trỏ nên khai con trỏ = NULL(địa chỉ = 0, giá trị =0), để ô địa chỉ của con trỏ sẽ là 0.   *cú pháp: int *ptr =NULL;
-## 2.Các loaị con trỏ thường gặp 
+## 2. Các loaị con trỏ thường gặp 
 
 - int *ptr; // **khai báo con trỏ để trỏ tới biến kiểu nguyên**
 - float *ptr; // **khai báo con trỏ để trỏ tới biến kiểu thực**
 - char *ptr; // **khai báo con trỏ để trỏ tới biến kiểu ký tự**
 
-### 3.Con trỏ void (void *<tên con trỏ>)
+### 2.1 Con trỏ void (void *<tên con trỏ>)
 - Con trỏ void còn được gọi là con trỏ tổng quát, là một kiểu con trỏ đặc biệt có thể trỏ đến các đối tượng của bất kỳ kiểu dữ liệu nào!
 - Tuy nhiên, con trỏ void không xác định được kiểu dữ liệu của vùng nhớ mà nó trỏ tới. Vì vậy, con trỏ kiểu void cần phải được ép kiểu một cách rõ ràng sang con trỏ có kiểu dữ liệu khác (**ép kiểu** (<kiểu dữ liệu muốn ép>*)<tên con trỏ void> ) (lưu ý: muốn xuất ra giá trị của địa chỉ thì thêm dấu* trước ngoặc đơn))
-### 4.Con trỏ hàm 
+### 2.2 Con trỏ hàm 
 - **khai báo con trỏ hàm**: <kiểu dữ liệu>(*tên con trỏ)(<dữ liệu biến truyền vào hàm>) ( ví dụ: void(*ptr)(int int) )
 - **ép kiểu con trỏ hàm** (ở đây là con trỏ void) ((void (*)(<kiểu dữ liệu biến truyền vào hàm>))<tên con trỏ void>)  ( ví dụ: ((void( * )(int int)ptr)) )
-### 5.pointer to pointer 
-### 6.Khi nào sử dụng pointer
+## 3. pointer to pointer 
+## 4. Khi nào sử dụng pointer
 - khi cần thay đổi giá trị của biến truyền vào hàm (ở đây là int a, int b) thì ta sử dụng con trỏ.
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/70405a7e-da9f-4080-9b7b-cfccf638b4ed)
 *giải thích:* khi chạy hết hàm void, địa chỉ của con trỏ sẽ được giải phóng, tuy nhiên giá trị của con trỏ lúc này mang giá trị của địa chỉ mà nó trỏ đến (là biến x và y). 
