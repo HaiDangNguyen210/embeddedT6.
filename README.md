@@ -49,7 +49,7 @@ có 4 bước chính trong suốt quá trình mà một file source code phải 
 - **ép kiểu con trỏ hàm** (ở đây là con trỏ void) ((void (*)(<kiểu dữ liệu biến truyền vào hàm>))<tên con trỏ void>)  ( ví dụ: ((void( * )(int int)ptr)) )
 ## 3. pointer to pointer 
 ## 4. Khi nào sử dụng pointer
-- khi cần thay đổi giá trị của biến truyền vào hàm (ở đây là int a, int b) thì ta sử dụng con trỏ.
+- khi cần thay đổi giá trị của biến truyền vào hàm (ở đây là int a, int b) thì ta sử dụng con trỏ. \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/70405a7e-da9f-4080-9b7b-cfccf638b4ed)
 *giải thích:* khi chạy hết hàm void, địa chỉ của con trỏ sẽ được giải phóng, tuy nhiên giá trị của con trỏ lúc này mang giá trị của địa chỉ mà nó trỏ đến (là biến x và y). 
 
@@ -75,6 +75,10 @@ Const int = 5; (hằng số)
 - Quyền truy cập là read-write.
 - Được sử dụng để cấp phát bộ nhớ động như: Malloc, Calloc, …
 - Sẽ được giải phóng khi gọi hàm free,…
+# Các biến nâng cao 
+## Biến Static 
+- Biến tĩnh (static variables) là biến được tạo ra duy nhất một lần khi gọi hàm lần đầu tiên và nó sẽ tiếp tục tồn tại trong suốt vòng đời của chương trình. Đây là sự khác biệt giữa biến tĩnh và biến cục bộ.
+
 
 
 
