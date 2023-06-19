@@ -56,25 +56,25 @@ có 4 bước chính trong suốt quá trình mà một file source code phải 
 # Phân Vùng Nhớ
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/6975dab5-7cdd-450c-b3f2-63ab1cb68dd2)
 ## Text :
-– Quyền truy cập chỉ Read và nó chưa lệnh để thực thi nên tránh sửa đổi instruction.
-– Chứa khai báo hằng số trong chương trình (.rodata)
+- Quyền truy cập chỉ Read và nó chưa lệnh để thực thi nên tránh sửa đổi instruction.
+- Chứa khai báo hằng số trong chương trình (.rodata)
 Const int = 5; (hằng số)
 ## Data:
-– Quyền truy cập là read-write.
-– Chứa biến toàn cục or biến static với giá trị khởi tạo khác không.
-– Được giải phóng khi kết thúc chương trình.
+- Quyền truy cập là read-write.
+- Chứa biến toàn cục or biến static với giá trị khởi tạo khác không.
+- Được giải phóng khi kết thúc chương trình.
 ## Bss:
-– Quyền truy cập là read-write.
-– Chứa biến toàn cục or biến static với giá trị khởi tạo bằng không or không khởi tạo.
-– Được giải phóng khi kết thúc chương trình.
+- Quyền truy cập là read-write.
+- Chứa biến toàn cục or biến static với giá trị khởi tạo bằng không or không khởi tạo.
+- Được giải phóng khi kết thúc chương trình.
 ## Stack:
-– Quyền truy cập là read-write.
-– Được sử dụng cấp phát cho biến local, input parameter của hàm,…
-– Sẽ được giải phóng khi ra khỏi block code/hàm
+- Quyền truy cập là read-write.
+- Được sử dụng cấp phát cho biến local, input parameter của hàm,…
+- Sẽ được giải phóng khi ra khỏi block code/hàm
 ## Heap:
-– Quyền truy cập là read-write.
-– Được sử dụng để cấp phát bộ nhớ động như: Malloc, Calloc, …
-– Sẽ được giải phóng khi gọi hàm free,…
+- Quyền truy cập là read-write.
+- Được sử dụng để cấp phát bộ nhớ động như: Malloc, Calloc, …
+- Sẽ được giải phóng khi gọi hàm free,…
 
 
 
