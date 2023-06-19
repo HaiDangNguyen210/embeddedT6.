@@ -80,7 +80,13 @@ Const int = 5; (hằng số)
 # Các biến nâng cao 
 ## Biến Static 
 - Biến tĩnh (static variables) là biến được tạo ra duy nhất một lần khi gọi hàm lần đầu tiên và nó sẽ tiếp tục tồn tại trong suốt vòng đời của chương trình. Đây là sự khác biệt giữa biến tĩnh và biến cục bộ.
-
+\
+\
+**Biến cục bộ:** sau mỗi lần chạy khối display, giá trị a sẽ được khởi tạo lại bằng 0, do đó không có sự thay đổi của biến a sau mỗi lần gọi chương trình.
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/19b7e546-a389-4883-88bb-207082710565)
+\
+**Biến tĩnh cục bộ** Giá trị a chỉ được khởi tạo 1 lần, và những lần kế tiếp chương trình sẽ không chạy dòng lệnh "static int a = 0", do đó giá trị a sẽ tăng lên sau mỗi lần chạy.
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/6b62774f-2871-4633-a802-613d466928c2)
 
 
 
