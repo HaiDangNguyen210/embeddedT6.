@@ -96,5 +96,10 @@ Trong C, khi 1 biến đi sau từ khóa “extern” có nghĩa là:
 - Biến được tham chiếu phải được khai báo ở cấp độ cao nhất (toàn cục), và có thể nằm trong một file khá
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/b4d4df43-6280-427f-97ed-8fdf3680bb83)
 *cú pháp: gcc <file sử dụng extern>.c <file muốn truy xuất biến>.c -o <file sử dụng extern>*
+## Từ khóa volatile
+- Trong lập trình nhúng (embedded system), ta rất thường hay gặp khai báo biến với từ khóa volatile. Việc khai báo biến volatile là rất cần thiết để tránh những lỗi sai khó phát hiện do tính năng optimization của compiler.
+- Trong trường hợp này để tránh việc compiler bỏ qua câu lệnh "int data = readADC()" (vì compiler nhận thấy không có sự thay đổi ở biến này, nhưng thực tế là có) ta sẽ sử dụng từ khóa volatile.  
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/d6cd2568-630a-445a-9442-e6ca35634ffe)
+
 
 
