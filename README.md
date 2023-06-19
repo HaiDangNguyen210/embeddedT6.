@@ -87,8 +87,14 @@ Const int = 5; (hằng số)
 \
 **Biến tĩnh cục bộ** Giá trị a chỉ được khởi tạo 1 lần, và những lần kế tiếp chương trình sẽ không chạy dòng lệnh "static int a = 0", do đó giá trị a sẽ tăng lên sau mỗi lần chạy.
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/6b62774f-2871-4633-a802-613d466928c2)
+\
+\
+*lưu ý: tất cả các biến static đều chỉ được hoạt động trong 1 file.c và sẽ không thể được gọi sử dụng trong các file.c khác.*
+## Từ khóa extern
+Trong C, khi 1 biến đi sau từ khóa “extern” có nghĩa là:
+- Nó là tham chiếu của một biến,hàm cùng tên nào đó, đã được định nghĩa bên ngoài. Nó chỉ khai báo chứ không định nghĩa ( cấp phát bộ nhớ cho biến ).
+- Biến được tham chiếu phải được khai báo ở cấp độ cao nhất (toàn cục), và có thể nằm trong một file khá
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/b4d4df43-6280-427f-97ed-8fdf3680bb83)
+*cú pháp: gcc <file sử dụng extern>.c <file muốn truy xuất biến>.c -o <file sử dụng extern>*
 
-
-
- 
 
