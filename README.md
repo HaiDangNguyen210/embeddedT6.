@@ -50,7 +50,7 @@ Kích thước của UNION = kích thước của **member lớn nhất** (trong
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/fb4f7392-9ffa-4b2e-adaf-e896c235226c)
 
 
-# COMPILER
+# B4 COMPILER
 có 4 bước chính trong suốt quá trình mà một file source code phải trải qua để biến thành file executable, đó là:
 - Tiền xử lý (Pre-processing)
 - Biên dịch (Compilation)
@@ -77,7 +77,7 @@ có 4 bước chính trong suốt quá trình mà một file source code phải 
 - Thực tế file (.exe) là 1 file zip gồm file source, file âm thanh, file hình ảnh, file thư viện nếu ứng dụng đó có.
 - sắp xếp các file trên vào file(.exe)
 
-# POINTER 
+# B5 POINTER 
 ## 1. Định nghĩa 
 - Con trỏ là một biến địa chỉ (biến này lưu địa chỉ ở vị trí con trỏ trỏ đến)
 - **Khai báo con trỏ:** <kiểu dữ liệu> *<tên con trỏ> (ví dụ int *ptr)
@@ -107,7 +107,7 @@ có 4 bước chính trong suốt quá trình mà một file source code phải 
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/70405a7e-da9f-4080-9b7b-cfccf638b4ed)
 *giải thích:* khi chạy hết hàm void, địa chỉ của con trỏ sẽ được giải phóng, tuy nhiên giá trị của con trỏ lúc này mang giá trị của địa chỉ mà nó trỏ đến (là biến x và y). 
 
-# Phân Vùng Nhớ
+# B6 Phân Vùng Nhớ
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/6975dab5-7cdd-450c-b3f2-63ab1cb68dd2)
 ## Text :
 - Quyền truy cập chỉ Read và nó chưa lệnh để thực thi nên tránh sửa đổi instruction.
@@ -129,7 +129,7 @@ Const int = 5; (hằng số)
 - Quyền truy cập là read-write.
 - Được sử dụng để cấp phát bộ nhớ động như: Malloc, Calloc, …
 - Sẽ được giải phóng khi gọi hàm free,…
-# Các biến nâng cao 
+# B7 Các biến nâng cao 
 ## Biến Static 
 - Biến tĩnh (static variables) là biến được tạo ra duy nhất một lần khi gọi hàm lần đầu tiên và nó sẽ tiếp tục tồn tại trong suốt vòng đời của chương trình. Đây là sự khác biệt giữa biến tĩnh và biến cục bộ.
 \
