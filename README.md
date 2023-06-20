@@ -1,4 +1,4 @@
-# Bài 1-2
+# Bài 1-2 TYPEDEF, #DEFINE và ENUM
 ## 1. Kích thước của các kiểu dữ liệu
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/24fafbaf-71bc-4d45-9330-afa3df1de180)
 ## 2. Typedef và #define 
