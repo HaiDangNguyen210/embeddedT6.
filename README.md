@@ -17,6 +17,16 @@ Define có 3 chức năng chính :
 - Define được sử dụng để đặt tên cho các giá trị được sử dụng trong chương trình nhằm mục đích truyền tải ý nghĩa tốt hơn
 - *Cú pháp :  #define tên_giá_trị giá_trị* \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/7b6ac6e5-7bd0-4bc7-8d2d-b66fab76f811)
+#### 2.2.3 Định nghĩa tên cho cấu trúc hoặc câu lệnh
+- Việc sử dụng define để định nghĩa các câu lệnh hay cấu trúc thường được sử dụng bởi các bạn lập trình viên trong các cuộc thi về lập trình thi đấu hay thuật toán. Mục đích là có thể tiết kiệm thời gian code, tuy nhiên việc này sẽ dẫn tới khó khăn cho người khác khi cần tham khảo mã nguồn.
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/19531a05-2f41-4d9d-b6ab-a4e2f5c62960)
+### 2.3 Sự Khác Nhau Giữa Define Và Typedef
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/46022f0c-6a30-4446-8bde-56d37f1e3383)
+## 3. Enum
+- Enum trong C là kiểu dữ liệu do người dùng định nghĩa. Nó được sử dụng chủ yếu để gán các tên cho các hằng số, các tên giúp một chương trình dễ đọc và bảo trì.
+- Từ khóa 'enum' được sử dụng để khai báo các kiểu liệt kê mới trong C và C++. Sau đây là cú pháp về khai báo enum.
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/c5ce5dd3-c7c5-4627-9104-b85a3226b5a3)
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/40cc23dd-c57b-4763-8558-da531b5d1c8d)
 
 # COMPILER
 có 4 bước chính trong suốt quá trình mà một file source code phải trải qua để biến thành file executable, đó là:
