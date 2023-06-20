@@ -29,7 +29,7 @@ Define có 3 chức năng chính :
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/40cc23dd-c57b-4763-8558-da531b5d1c8d)
 ## 4. Vòng lặp
 
-# Bài 3:
+# Bài 3: UNION và STRUCT
 ## 1. UNION 
 - Một Union là dữ liệu đặc biệt trong ngôn ngữ C cho phép bạn dự trữ các kiểu dữ liệu khác nhau trong cùng một vùng nhớ.
 ### 1.1 Kích thước của UNION 
