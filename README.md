@@ -1,4 +1,4 @@
-# Bài 1
+# Bài 1-2
 ## 1. Kích thước của các kiểu dữ liệu
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/24fafbaf-71bc-4d45-9330-afa3df1de180)
 ## 2. Typedef và #define 
@@ -27,6 +27,28 @@ Define có 3 chức năng chính :
 - Từ khóa 'enum' được sử dụng để khai báo các kiểu liệt kê mới trong C và C++. Sau đây là cú pháp về khai báo enum.
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/c5ce5dd3-c7c5-4627-9104-b85a3226b5a3)
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/40cc23dd-c57b-4763-8558-da531b5d1c8d)
+## 4. Vòng lặp
+
+# Bài 3:
+## 1. UNION 
+- Một Union là dữ liệu đặc biệt trong ngôn ngữ C cho phép bạn dự trữ các kiểu dữ liệu khác nhau trong cùng một vùng nhớ.
+### 1.1 Kích thước của UNION 
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/3daf6977-4c50-468e-baeb-3534610a44f3)
+\
+Kích thước của UNION = kích thước của **member lớn nhất** (trong trường hợp này là 32 byte) 
+### 1.2 Áp dụng thực tế của UNION 
+- Truyền xuất dữ liệu giữa 2 MCU.
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/33c5fec9-7542-43ca-80ce-6cb55be9f11e)
+- giúp MCU phân biệt được các phần tử được truyền (ID, data, CS) 
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/03e28d69-a4db-4b58-a21e-b5493c6e415d)
+## 2. struct
+### 2.1 Định nghĩa 
+- Struct trong C/C++ Các mảng trong C/C++ cho phép bạn định nghĩa một vài loại biến có thể giữ giá trị của một vài thành viên cùng kiểu dữ liêu. Nhưng structure cấu trúc là một loại dữ liệu khác trong ngôn ngữ lập trình C/C++, cho phép bạn kết hợp các dữ liệu khác kiểu nhau.
+- Cấu trúc được sử dụng để biểu diễn một bản ghi. Giả sử bạn muốn lưu trữ giá trị của một quyển sách trong thư viện của bạn. Bạn có thể lưu trữ các thuộc tính của sách sau đây:
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/80ac68e2-0cca-4e7e-be47-5c7438fc5c6a)
+### 2.2 Kích thước của Struct
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/fb4f7392-9ffa-4b2e-adaf-e896c235226c)
+
 
 # COMPILER
 có 4 bước chính trong suốt quá trình mà một file source code phải trải qua để biến thành file executable, đó là:
