@@ -1,3 +1,23 @@
+# Bài 1
+## 1. Kích thước của các kiểu dữ liệu
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/24fafbaf-71bc-4d45-9330-afa3df1de180)
+## 2. Typedef và #define 
+### 2.1 Typedef
+- Typedef giúp bạn tạo một tên mới cho các kiểu dữ liệu trong ngôn ngữ C. 
+- Sau khi tạo một bí danh mới cho các kiểu dữ liệu đó thì bạn có thể sử dụng tên mới hoặc tên cũ của kiểu dữ liệu đó đều được.
+- *Cú pháp : typedef kiểu_dữ_liệu tên_mới;*
+\
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/727291a4-241f-4e01-9125-27775d33090d)
+### 2.2 #define 
+Define có 3 chức năng chính : 
+#### 2.2.1 Định nghĩa tên cho kiểu dữ liệu
+- Define có thể sử dụng để làm công việc tương tự như typedef đó là định nghĩa tên mới cho kiểu dữ liệu
+- *Cú pháp : #define tên_mới kiểu_dữ_liệu*
+#### 2.2.2 Định nghĩa tên cho giá trị
+- Define được sử dụng để đặt tên cho các giá trị được sử dụng trong chương trình nhằm mục đích truyền tải ý nghĩa tốt hơn
+- *Cú pháp :  #define tên_giá_trị giá_trị* \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/7b6ac6e5-7bd0-4bc7-8d2d-b66fab76f811)
+
 # COMPILER
 có 4 bước chính trong suốt quá trình mà một file source code phải trải qua để biến thành file executable, đó là:
 - Tiền xử lý (Pre-processing)
