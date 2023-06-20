@@ -18,7 +18,7 @@ Define có 3 chức năng chính :
 - *Cú pháp :  #define tên_giá_trị giá_trị* \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/7b6ac6e5-7bd0-4bc7-8d2d-b66fab76f811)
 #### 2.2.3 Định nghĩa tên cho cấu trúc hoặc câu lệnh
-- Việc sử dụng define để định nghĩa các câu lệnh hay cấu trúc thường được sử dụng bởi các bạn lập trình viên trong các cuộc thi về lập trình thi đấu hay thuật toán. Mục đích là có thể tiết kiệm thời gian code, tuy nhiên việc này sẽ dẫn tới khó khăn cho người khác khi cần tham khảo mã nguồn.
+- Việc sử dụng define để định nghĩa các câu lệnh hay cấu trúc thường được sử dụng bởi các bạn lập trình viên trong các cuộc thi về lập trình thi đấu hay thuật toán. Mục đích là có thể tiết kiệm thời gian code, tuy nhiên việc này sẽ dẫn tới khó khăn cho người khác khi cần tham khảo mã nguồn. \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/19531a05-2f41-4d9d-b6ab-a4e2f5c62960)
 ### 2.3 Sự Khác Nhau Giữa Define Và Typedef
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/46022f0c-6a30-4446-8bde-56d37f1e3383)
