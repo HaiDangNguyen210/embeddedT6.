@@ -44,7 +44,7 @@ Kích thước của UNION = kích thước của **member lớn nhất** (trong
 ## 2. struct
 ### 2.1 Định nghĩa 
 - Struct trong C/C++ Các mảng trong C/C++ cho phép bạn định nghĩa một vài loại biến có thể giữ giá trị của một vài thành viên cùng kiểu dữ liêu. Nhưng structure cấu trúc là một loại dữ liệu khác trong ngôn ngữ lập trình C/C++, cho phép bạn kết hợp các dữ liệu khác kiểu nhau.
-- Cấu trúc được sử dụng để biểu diễn một bản ghi. Giả sử bạn muốn lưu trữ giá trị của một quyển sách trong thư viện của bạn. Bạn có thể lưu trữ các thuộc tính của sách sau đây:
+- Cấu trúc được sử dụng để biểu diễn một bản ghi. Giả sử bạn muốn lưu trữ giá trị của một quyển sách trong thư viện của bạn. Bạn có thể lưu trữ các thuộc tính của sách sau đây: \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/80ac68e2-0cca-4e7e-be47-5c7438fc5c6a)
 ### 2.2 Kích thước của Struct
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/fb4f7392-9ffa-4b2e-adaf-e896c235226c)
