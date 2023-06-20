@@ -93,7 +93,7 @@ có 4 bước chính trong suốt quá trình mà một file source code phải 
 - float *ptr; // **khai báo con trỏ để trỏ tới biến kiểu thực**
 - char *ptr; // **khai báo con trỏ để trỏ tới biến kiểu ký tự**
 
-### 2.1 Con trỏ void (void *<tên con trỏ><input parameter>)
+### 2.1 Con trỏ void (void *<tên con trỏ>)
 - Con trỏ void còn được gọi là con trỏ tổng quát, là một kiểu con trỏ đặc biệt có thể trỏ đến các đối tượng của bất kỳ kiểu dữ liệu nào!
 - Tuy nhiên, con trỏ void không xác định được kiểu dữ liệu của vùng nhớ mà nó trỏ tới. Vì vậy, con trỏ kiểu void cần phải được ép kiểu một cách rõ ràng sang con trỏ có kiểu dữ liệu khác (**ép kiểu** (<kiểu dữ liệu muốn ép>*)<tên con trỏ void> ) (lưu ý: muốn xuất ra giá trị của địa chỉ thì thêm dấu* trước ngoặc đơn))
 ### 2.2 Con trỏ hàm 
