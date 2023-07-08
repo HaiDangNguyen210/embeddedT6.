@@ -129,6 +129,7 @@ Const int = 5; (hằng số)
 - Quyền truy cập là read-write.
 - Được sử dụng để cấp phát bộ nhớ động như: Malloc, Calloc, …
 - Sẽ được giải phóng khi gọi hàm free,…
+
 # B7 Các biến nâng cao 
 ## Biến Static 
 - Biến tĩnh (static variables) là biến được tạo ra duy nhất một lần khi gọi hàm lần đầu tiên và nó sẽ tiếp tục tồn tại trong suốt vòng đời của chương trình. Đây là sự khác biệt giữa biến tĩnh và biến cục bộ.
@@ -152,6 +153,30 @@ Trong C, khi 1 biến đi sau từ khóa “extern” có nghĩa là:
 - Trong lập trình nhúng (embedded system), ta rất thường hay gặp khai báo biến với từ khóa volatile. Việc khai báo biến volatile là rất cần thiết để tránh những lỗi sai khó phát hiện do tính năng optimization của compiler.
 - Trong trường hợp này để tránh việc compiler bỏ qua câu lệnh "int data = readADC()" (vì compiler nhận thấy không có sự thay đổi ở biến này, nhưng thực tế là có) ta sẽ sử dụng từ khóa volatile.  
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/d6cd2568-630a-445a-9442-e6ca35634ffe)
+
+# B8 Bài tập
+# B9 LinkedList (danh sách liên kết đơn)
+## 1. Định nghĩa. 
+### 1.1 Con trỏ trỏ đến Struct.
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/14c51719-8ac8-4c44-bb07-dfbc53367f4a)
+### 1.2 Danh sách liên kết đơn là gì ?
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/1bf4e1d9-e3ea-4812-8862-f22edd73ad20)
+- Nhìn vào hình ta thấy con trỏ node *next lưu địa chỉ của biến **int value** kế tiếp.
+- Và bằng cách này thì các con trỏ node *next đã lưu dữ liệu thành 1 chuỗi bằng cách lấy địa chỉ của biến kế tiếp.
+## 2. Giải thích code. 
+### 2.1 Tạo các node liên tiếp nhau. (PUSH_BACK)
+- Trước khi khởi tạo các Node, sẽ phải tạo 1 node đầu tiên, thường gọi là Head, node này trỏ đến NULL.
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/1515ef5d-97c4-4941-9a1c-16dcbcfdd1bb) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/e677c9cf-68f8-46c3-a060-d335f849a333)
+- Vì cần thay đổi giá trị tại nơi con trỏ đến nên ta truyền vào địa chỉ con trỏ(dùng p to p)(dòng 16) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/d379d308-58a4-459e-a22a-d61ec83a2e55) \
+- **cách thức đoạn code hoạt động**
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/1798af65-ffb0-4347-b9d8-91c2d303268e) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/1b04034f-83bb-4e3f-8aff-14662e9268d7) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/4a280ff6-11cb-4c20-9909-060b62d56a62) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/0618dbc4-16cf-4f6b-a78c-efd598ff19f9) 
+- *Createnode(int value)*
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/c5e654b3-43d7-4d08-b607-3c3378ec7481)
 
 
 
