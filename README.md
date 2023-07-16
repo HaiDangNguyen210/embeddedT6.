@@ -225,4 +225,24 @@ tượng nào tồn tại. Tức là bạn có thể khai báo nhiều object, m
 của nó đều khác nhau nhưng riêng static thì chỉ có một và static member tồn tại trong 
 suốt chương trình cho dù có hay không có object nào của nó hay nói ngắn gọn là 
 dùng chung một biến static.
+### 3. Đặc tính của lập trình hướng đối tượng ( có 4 đặc tính )
+#### 3.1 Inheritance (Tính kế thừa )
+- trong lập trình hướng đối tượng có ý nghĩa, một class có thể kế thừa các thuộc tính của một class khác đã tồn tại trước đó.
+- ví dụ 1: **kế thừa kiểu public** \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/df7afa2a-1ee8-41a1-84d1-469849769d43) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/1c9975dd-2728-40be-a881-27344793176f) \
+
+- Class sinhvien kế thừa từ class doituong theo kiểu public: có nghĩa là class sinhvien được sử dụng các property khai báo trong phần public của class doituong (trong trường hợp này là themthongtin và hienthi). Và *class sinhvien cũng có thể sử dụng các property khai báo trong phần protected của class doituong*: Ten, Tuoi, Gioitinh. (ngược lại nếu là private thì không thể sử dụng được)
+
+- ví dụ 2: **kế thừa kiểu protected**
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/1b3b86c0-7163-4b3e-8b78-9ce0096c34a7) \
+- Class sinhvien kế thừa từ class doituong theo kiểu protected: có nghĩa là các property khai báo trong phần public của class doituong (trong trường hợp này là themthongtin và hienthi)sẽ được chuyển thành protected của class sinhvien.
+- ví dụ 3: **kế thừa kiểu private**
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/0ebb43e7-7db5-456f-aa07-df8406193707)
+- Class sinhvien kế thừa từ class doituong theo kiểu protected: có nghĩa là các property khai báo trong phần public của class doituong (trong trường hợp này là themthongtin và hienthi)sẽ được chuyển thành private của class sinhvien.
+
+- **Fact thêm: ghi đè (overwrite)**: Class sinhvien kế thừa từ class doituong method hienthi, tuy nhiên ở class sinhvien, ta định nghĩa lại method hienthi, thì kết quả khi ta gọi method hienthi của class sinhvien sẽ là kết quả ta mới định nghĩa lại. \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/5441bd32-74d9-4b7a-995d-bef0b63550e2) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/7fd2256f-f44c-4deb-a68b-64bbd4657330) \ 
+
 
