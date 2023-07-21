@@ -235,7 +235,7 @@ dùng chung một biến static.
 - Class sinhvien kế thừa từ class doituong theo kiểu public: có nghĩa là class sinhvien được sử dụng các property khai báo trong phần public của class doituong (trong trường hợp này là themthongtin và hienthi). Và *class sinhvien cũng có thể sử dụng các property khai báo trong phần protected của class doituong*: Ten, Tuoi, Gioitinh. (ngược lại nếu là private thì không thể sử dụng được)
 
 - ví dụ 2: **kế thừa kiểu protected**
-![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/1b3b86c0-7163-4b3e-8b78-9ce0096c34a7) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/1b3b86c0-7163-4b3e-8b78-9ce0096c34a7) 
 - Class sinhvien kế thừa từ class doituong theo kiểu protected: có nghĩa là các property khai báo trong phần public của class doituong (trong trường hợp này là themthongtin và hienthi)sẽ được chuyển thành protected của class sinhvien.
 - ví dụ 3: **kế thừa kiểu private**
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/0ebb43e7-7db5-456f-aa07-df8406193707)
@@ -243,6 +243,6 @@ dùng chung một biến static.
 
 - **Fact thêm: ghi đè (overwrite)**: Class sinhvien kế thừa từ class doituong method hienthi, tuy nhiên ở class sinhvien, ta định nghĩa lại method hienthi, thì kết quả khi ta gọi method hienthi của class sinhvien sẽ là kết quả ta mới định nghĩa lại. \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/5441bd32-74d9-4b7a-995d-bef0b63550e2) \
-![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/7fd2256f-f44c-4deb-a68b-64bbd4657330) \ 
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/7fd2256f-f44c-4deb-a68b-64bbd4657330) 
 
 
