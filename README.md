@@ -180,7 +180,7 @@ Trong C, khi 1 biến đi sau từ khóa “extern” có nghĩa là:
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/c5e654b3-43d7-4d08-b607-3c3378ec7481)
 
 # CODE C++
-## B1 CLass
+## OOP (Oject Oriented Programming)
 ### 1. Class là gì ?
 Class hay lớp là một mô tả trừu tượng (abstract) của nhóm các đối tượng (object) có 
 cùng bản chất, ngược lại mỗi một đối tượng là một thể hiện cụ thể (instance) cho 
@@ -244,5 +244,36 @@ dùng chung một biến static.
 - **Fact thêm: ghi đè (overwrite)**: Class sinhvien kế thừa từ class doituong method hienthi, tuy nhiên ở class sinhvien, ta định nghĩa lại method hienthi, thì kết quả khi ta gọi method hienthi của class sinhvien sẽ là kết quả ta mới định nghĩa lại. \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/5441bd32-74d9-4b7a-995d-bef0b63550e2) \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/7fd2256f-f44c-4deb-a68b-64bbd4657330) 
+#### 3.2 Polymorphism (Tính đa hình)
+- trong lập trình hướng đối tượng là một khả năng mà  một phương thức trong class có thể đưa ra các kết quả hoàn toàn khác nhau, tùy thuộc vào dữ liệu được xử lý.
+- Ví dụ: Cùng gọi method tong, nhưng kết quả đầu ra lại khác nhau.  
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/ab88b5b0-6872-46f8-980a-6d689d90ee43)
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/90c6fce8-1c61-415d-840c-d69ea939b69a)
+### 4. Namespace là gì?
+- Namespace là từ khóa trong C++ được sử dụng để định nghĩa một phạm vi nhằm 
+mục đích phân biệt các hàm, lớp, biến, ... cùng tên trong các thư viện khác nhau
+- Khi đang lập trình trong một file A bạn include 2 file B và C, nhưng 2 file này có 
+cùng định nghĩa một hàm function() giống nhau về tên và tham số truyền vào, nhưng 
+xử lý của mỗi hàm ở mỗi file là khác nhau, vấn đề đặt ra là code làm sao để trình 
+biên dịch hiểu được khi nào bạn muốn gọi function của file B, khi nào bạn muốn gọi 
+function của file C. Khi gọi hàm function() ở file A, trình biên dịch sẽ không biết 
+được hàm function() bạn muốn gọi là hàm được định nghĩa ở file B hay file C. Vì 
+vậy trình biên dịch chương trình sẽ báo lỗi
+- Ví dụ: Dù 2 biến cùng tên Teo nhưng in ra 2 kết quả khác nhau \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/a5c836d6-4a38-41e3-baf3-6d4006a07c7b) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/25965e8d-8df8-4ff3-badb-05c84623c5f8) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/9b932100-ddc1-41bb-9097-e1cf13ef7d79) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/029ac22d-0927-45fb-8f34-d4232a656b46)
+
+### 5.Template trong C++ là gì?
+- Template (khuôn mẫu) là một từ khóa trong C++, và là một kiểu dữ liệu trừu 
+tượng tổng quát hóa cho các kiểu dữ liệu int, float, double, bool...
+- Template trong C++ có 2 loại đó là function template & class template.
+- Template giúp người lập trình định nghĩa tổng quát cho hàm và lớp thay vì 
+phải nạp chồng (overloading) cho từng hàm hay phương thức với những kiểu 
+dữ liệu khác nhau. \
+
+
+
 
 
