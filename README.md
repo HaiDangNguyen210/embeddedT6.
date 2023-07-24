@@ -272,9 +272,9 @@ tượng tổng quát hóa cho các kiểu dữ liệu int, float, double, bool.
 - Template giúp người lập trình định nghĩa tổng quát cho hàm và lớp thay vì 
 phải nạp chồng (overloading) cho từng hàm hay phương thức với những kiểu 
 dữ liệu khác nhau.
-- Ví dụ:đây là 1 **function template**
- \![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/19bbfdb8-f574-4284-b655-5915d4c57e3d)
- \![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/750eb6a3-a8d8-47b4-a595-4e89914c2b2c)
+- Ví dụ:đây là 1 **function template** \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/19bbfdb8-f574-4284-b655-5915d4c57e3d) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/750eb6a3-a8d8-47b4-a595-4e89914c2b2c)
 ### 6. Hàm ảo (virtual function) là gì?
 
 
