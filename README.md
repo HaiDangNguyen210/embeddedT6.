@@ -282,8 +282,29 @@ khi kế thừa cần phải định nghĩa lại.
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/10db237c-abd8-48d7-a891-61a37a803e06)
  \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/a9565ff3-d8d2-4b67-95fa-7cb17f1c0c20)
-
-
+### 7. Vector là gì ?
+- Giống như là mảng (array), vector trong C++ là một đối tượng dùng để chứa các đối 
+tượng khác, và các đối tượng được chứa này cũng được lưu trữ một cách liên tiếp 
+trong vector.
+- Tuy nhiên, nếu như số lượng phần tử (size) của một mảng là cố định, thì ở vector, 
+nó hoàn toàn có thể thay đổi trong suốt quá trình làm việc của chương trình
+- **Các lệnh thực thi trong vector:** \
+**1. push_back()**
+ten-vector.push_back(ten-cua-phan-tu); \
+**2. assign()**: tạo 1 mảng với kích thước mới và giá trị mới để thay thế cho mảng cũ (có sẵn). Ví dụ: assign(3,10) sẽ là mảng 3 phần tử với giá trị các phần tử =10 \
+ten-vector.assign(int size, int value); \
+**3. pop_back()** \
+**4. insert():** Hàm này chèn các phần tử mới vào trước phần tử trước vị trí được trỏ 
+bởi vòng lặp. \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/15b9c27d-12b6-41c0-98a9-c9a5331dabcc) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/124872aa-04d5-402b-a16f-1a39e73043f8) \
+**5. erase():** Hàm được sử dụng để xóa các phần tử tùy theo vị trí vùng chứa \
+**6. emplace():** Nó mở rộng vùng chứa bằng cách chèn phần tử mới vào \
+**7. emplace_back():** Nó được sử dụng để chèn một phần tử mới vào vùng chứa 
+vector, phần tử mới sẽ được thêm vào cuối vector \
+**8. swap():** Hàm được sử dụng để hoán đổi nội dung của một vector này với một 
+vector khác cùng kiểu. Kích thước có thể khác nhau. \
+**9. clear():** Hàm được sử dụng để loại bỏ tất cả các phần tử của vùng chứa vector
  
 
 
