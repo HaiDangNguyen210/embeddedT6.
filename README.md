@@ -276,6 +276,12 @@ dữ liệu khác nhau.
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/19bbfdb8-f574-4284-b655-5915d4c57e3d) \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/750eb6a3-a8d8-47b4-a595-4e89914c2b2c)
 ### 6. Hàm ảo (virtual function) là gì?
+- Hàm ảo (virtual function) là một hàm thành viên trong lớp cơ sở mà lớp dẫn xuất 
+khi kế thừa cần phải định nghĩa lại.
+- ví dụ: trong trường hợp này, nếu không định nghĩa method comment là 1 hàm ảo thì khi ta gọi method display trong class hocsinh thì kết quả xuất ra sẽ là "class sinh vien" (vì vị trí của method display nằm ở class sinhvien và method display sẽ có xu hướng truy xuất đến các phần tử cùng cấp (ở đây là method comment nằm ở class sinhvien)) \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/10db237c-abd8-48d7-a891-61a37a803e06)
+ \
+![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/a9565ff3-d8d2-4b67-95fa-7cb17f1c0c20)
 
 
  
