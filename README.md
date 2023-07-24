@@ -294,8 +294,7 @@ ten-vector.push_back(ten-cua-phan-tu); \
 **2. assign()**: tạo 1 mảng với kích thước mới và giá trị mới để thay thế cho mảng cũ (có sẵn). Ví dụ: assign(3,10) sẽ là mảng 3 phần tử với giá trị các phần tử =10 \
 ten-vector.assign(int size, int value); \
 **3. pop_back()** \
-**4. insert():** Hàm này chèn các phần tử mới vào trước phần tử trước vị trí được trỏ 
-bởi vòng lặp. \
+**4. insert():** Hàm này chèn các phần tử mới vào vị trí được trỏ trong mảng bởi vòng lặp. \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/15b9c27d-12b6-41c0-98a9-c9a5331dabcc) \
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/124872aa-04d5-402b-a16f-1a39e73043f8) \
 **5. erase():** Hàm được sử dụng để xóa các phần tử tùy theo vị trí vùng chứa \
