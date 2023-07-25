@@ -249,6 +249,22 @@ dùng chung một biến static.***
 - Ví dụ: Cùng gọi method tong, nhưng kết quả đầu ra lại khác nhau.  
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/ab88b5b0-6872-46f8-980a-6d689d90ee43)
 ![image](https://github.com/HaiDangNguyen210/embeddedT6./assets/136185469/90c6fce8-1c61-415d-840c-d69ea939b69a)
+#### 3.3 Encapsulation (Tính đóng gói) 
+- trong lập trình hướng đối tượng có ý nghĩa không cho phép người sử dụng các đối tượng thay đổi trạng thái nội tại của một đối tượng, mà chỉ có phương thức nội tại của đối tượng có thể thay đổi chính nó.
+- Điều đó có nghĩa, dữ liệu và thông tin sẽ được đóng gói lại, giúp các tác động bên
+ngoài một đối tượng không thể làm thay đổi đối tượng đó, nên sẽ đảm bảo tính toàn
+vẹn của đối tượng, cũng như giúp dấu đi các dữ liệu thông tin cần được che giấu.
+- **Ví dụ đơn giản**, khi bạn dùng một cái iphone, bạn không thể thay đổi các cấu trúc
+bên trong của hệ điều hành iOS, mà chỉ có Apple mới có thể làm được điều này thôi.
+#### 3.4 Abstraction (Tính trừu tượng)
+- trong lập trình hướng đối tượng là một khả năng mà chương trình có thể bỏ qua sự phức tạp bằng cách tập trung vào cốt lõi của thông tin cần xử lý
+- Điều đó có nghĩa, bạn có thể xử lý một đối tượng bằng cách gọi tên một phương
+thức và thu về kết quả xử lý, mà không cần biết làm cách nào đối tượng đó được các
+thao tác trong clas
+- **Ví dụ đơn giản,** bạn có thể nấu cơm bằng nồi cơm điện bằng cách rất đơn giản là ấn
+công tắc nấu, mà không cần biết là bên trong cái nồi cơm điện đó đã làm thế nào mà
+gạo có thể nấu thành cơm.
+
 ### 4. Namespace là gì?
 - Namespace là từ khóa trong C++ được sử dụng để định nghĩa một phạm vi nhằm 
 mục đích phân biệt các hàm, lớp, biến, ... cùng tên trong các thư viện khác nhau
